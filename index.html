@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header class="py-5">
+    <header class="p-5">
 
         <!-- navigation var 
     ---------------------->
@@ -168,9 +168,104 @@
                     </div>
                 </div>
             </div>
-
-
+            <div class="text-center py-3">
+                <button class="btn btn-warning">See More Courses</button>
+            </div>
         </section>
+
+
+
+        <!-- --------------
+        Accordian --------  -->
+
+        <div class="container py-5">
+            <div class="text-center pb-5">
+                <h1>Frequently Asked Questions</h1>
+                <p>
+                    It is a long established fact that a reader will be distracted by the
+                    readable content of a page when looking at its layout.
+                </p>
+            </div>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What is the difference between flexbox and CSS grid?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Grid is made for two-dimensional layout while Flexbox is for
+                                one.</strong>
+                            Flexbox offers greater control over alignment and space distribution between items. Being
+                            one-dimensional, Flexbox only deals with either columns or rows. This system works for
+                            smaller layouts, but cannot render complex displays such as text or document-centric
+                            properties that enable floats and columns. <br>
+
+                            Grid has two-dimension layout capabilities which allow flexible widths as a unit of length.
+                            This compensates for the limitations in Flex.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What do you mean by css box model?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            CSS Box Model is a module of CSS that defines the rectangular boxes—including their padding
+                            and margin—that are generated for elements and laid out according to the visual formatting
+                            model. The Box Model A box in CSS consists of a content area, which is where any text,
+                            images, or other HTML elements are displayed.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            what is the difference between tailwind and bootstrap?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            The main difference between Bootstrap and Tailwind is that Bootstrap pre-built components
+                            that provide a responsive UI (user interface) kit. On the other hand, Tailwind comes with
+                            predesigned widgets that facilitate web developers to design a website from scratch. Both
+                            Bootstrap and Tailwind are two of the best front-end CSS framework used worldwide.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            what do you mean by semantic tag?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Semantic Tags uses Schema Markup (a vocabulary to define people, places, or things) and
+                            linked data information that refers to other relational databases to assist in clarification
+                            (also known as disambiguation) to help search engine algorithms and users understand your
+                            content.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- --------------
+  Accordian end--------  -->
+
     </main>
 
 
